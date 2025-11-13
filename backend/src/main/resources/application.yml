@@ -8,9 +8,9 @@ spring:
 
   # 데이터베이스 설정 (H2/MySQL/PostgreSQL 선택)
   datasource:
-    url: jdbc:postgresql://localhost:5432/labelai?useSSL=false&serverTimezone=UTC
+    url: jdbc:postgresql://localhost:5432/labelai
     username: postgres
-    password: wldms0615! # 환경변수 또는 기본값
+    password:  # 환경변수 또는 기본값
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10
